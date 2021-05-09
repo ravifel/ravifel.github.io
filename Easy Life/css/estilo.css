@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../fotos/fundoMenu.jpg');
+    margin-block-start: 1.67em;
+    margin-top: 100px;
+}
+
+hgroup h1 {
+    font-size: 40px;
+    color: #01b3bc;
+}
+
+nav h1 {
+    font-size: 20px;
+}
+
+input#concluir {
+    background-color: #01b3bc;
+    color: white;
+    padding: 15px;
+    
+}
+
+div#sobreExames {
+    margin-left: 360px;
+    margin-right: 50px;
+    width: 50%;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+div#sobreExames h1 {
+    color: #01b3bc;
+}
+
+div#corpo {
+    text-align: left;
+}
+
+div#menuPrincipal h1{
+    font-size: 40;
+    margin-left: 690px;
+    width: 10%;
+    background-color: white;
+    
+}
+
+#saude {
+    width: 100px;
+}
+
+.titulo-img {
+    position: absolute;
+    margin-left: 39%;
+    margin-right: auto;
+    width: 120px;
+}
+
+.titulo-nome {
+            border: 0px solid;
+            margin-left: 47%;
+            margin-right: auto;
+            width: 200px;
+            height: 100px;
+            padding-top: 5px;
+}
+
+.titulo-h1nome {
+                font-size: xxx-large;
+                margin-top: 21px;
+                margin-bottom: 0px;
+}
+
+.titulo-botao1 {
+    background-color: #01b3bc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.titulo-botao2 {
+    background-color: #01b3bc; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.titulo-botao3 {
+    background-color: #3cd9ab; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+div#marcacao {
+    margin-left: 360px;
+    margin-right: 50px;
+    width: 50%;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+
+}

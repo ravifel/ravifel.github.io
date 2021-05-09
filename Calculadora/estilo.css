@@ -1,0 +1,49 @@
+.titulo-div {
+
+    background-image: url("https://onextrapixel.com/wp-content/uploads/2017/04/6df23e313830bf0fea9f8dce8fb87c61.jpg");
+    text-align: center;
+    width: 30%;
+    padding-bottom: 2.5%;
+    padding-top: 1%;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 40%;
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.titulo-botao {
+    background-color: gray;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 3px;
+    
+}
+
+.titulo-resultado {
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.titulo-caixaTexto {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: -20%;
+    padding-right: -20%;
+}
+
+
+
+h3#titulo {
+    font-size: 35px;
+    font-family: monospace;
+    color: white;
+}
+
+
+

@@ -1,0 +1,31 @@
+.titulo-cartao {
+
+    position: absolute;
+    background-image: url("https://besthqwallpapers.com/Uploads/21-5-2020/134003/thumb2-3d-black-texture-geometric-black-texture-black-abstraction-background-3d-abstraction-black-texture-creative-black-background.jpg");
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: system-ui;
+    margin-top: 120px;
+    margin-right: 433px;
+    margin-left: 358px;
+    padding-left: 235px; 
+    padding-top: 16px;
+    padding-bottom: 37px;
+
+}
+
+
+img#comput {
+    position: absolute;
+    width: 170px;
+    padding-left: 393px;
+    padding-top: 206px;
+}
+
+p {
+    font-size: 18px;
+}
+
+p#nome {
+    font-size: 30px;
+}
