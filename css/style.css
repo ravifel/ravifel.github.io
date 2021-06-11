@@ -551,7 +551,7 @@ nav ul li a {
 }
 
 #linkedin {
-                background-color: #ddd9d8; 
+                background-color: #292929; 
                 border: none;
                 color: black;
                 padding: 16px 23px;
@@ -565,13 +565,13 @@ nav ul li a {
 }
 
 #linkedin:hover {
-  background-color: #5f3d2e;
+  background-color: #818181;
   color: black;
 }
 
 .contact-details li {
   padding-bottom: 10px;
-  color: rgb(0, 0, 0);
+  color: white;
   text-align: center;
 }
 
