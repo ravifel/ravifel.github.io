@@ -43,6 +43,19 @@ h4 {
   font-weight: 600;
 }
 
+
+#empresa{
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none !important;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+
 a {
   color: #ffffff;
   font-size: x-large;
@@ -268,20 +281,20 @@ nav ul li a {
   padding: 13px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #544338;
-  background-color: #dbd7d68f;
+  color: #ffffff;
+  background-color: #17151669;
   border-color: #292929;
 }
 
 .header-content p {
-  background-color: #6948337d;
+  background-color: #ffffff45;
   font-size: 27px;
   letter-spacing: 5px;
   padding: 14px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: unset;
-  color: #fff;
+  color: #151515;
   font-weight: 500;
 }
 
@@ -304,11 +317,6 @@ nav ul li a {
   height: auto;
   background: #f7f7f7;
   padding-top: 190px;
-}
-
-#about .div-img-bg {
-  padding-bottom: 30px;
-  border: 20px solid #b8a07e;
 }
 
 #about .div-img-bg .about-img img {
@@ -542,9 +550,28 @@ nav ul li a {
   
 }
 
+#linkedin {
+                background-color: #ddd9d8; 
+                border: none;
+                color: black;
+                padding: 16px 23px;
+                padding-top: 23px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 24px;
+                font-family: monospace;
+                border-radius: 12px;
+}
+
+#linkedin:hover {
+  background-color: #5f3d2e;
+  color: black;
+}
+
 .contact-details li {
   padding-bottom: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
