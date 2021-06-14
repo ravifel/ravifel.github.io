@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estiloCadastro.css">
+    <link rel="shortcut icon" href="Fotos/logo.png">
+    <title>Cadastro Bilhete Único</title>
+
+    <script type="text/javascript" src="javascript/funcoes.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+(function() {
+emailjs.init("user_BDnZHtbBaliCgdX54MFVA");
+})();
+    </script>
+</head>
+<body>
+
+    <div class="registroFormulario"><h2>Cadastro Bilhete Único</h2></div>
+
+    <div class="conteudo">
+
+    <form class="needs-validation" novalidate>
+
+
+        <div id="nome">
+
+            <!--CAMPO NOME-->
+            <input id="fname" required name="fname" class="primeiroNome" type="text" name="primeiroNome" placeholder="Ex: Davi" maxlength="25" minlength="2">
+            <label class="primeiroNomeLabel">Nome*</label>
+
+            <!--CAMPO SOBRENOME-->
+            <input id="fsobrenome" required name="fsobrenome" class="sobrenome" type="text" name="sobrenome" placeholder="Ex: Cardoso" maxlength="25">
+            <label class="sobrenomeLabel">Sobrenome*</label>
+
+        </div>
+
+       <!--CAMPO ENDEREÇO-->
+        <input id="fendereco" name="fendereco" class="endereco" type="text" name="endereco" placeholder="Ex: Rua da Consolação, 347 - Jardins">
+        <label class="enderecoLabel">Endereço</label>
+
+        <div id="nome">
+
+            <!--CAMPO CIDADE-->
+            <input id="fcidade" name="fcidade" class="cidade" type="text" name="cidade" placeholder="Ex: São Paulo">
+            <label class="cidadeLabel">Cidade</label>
+
+            <!--CAMPO REGIÃO/ESTADO-->
+            <select class="regiao" name="regiao">
+
+                <option disabled="disabled" selected="selected">- Selecione sua Região </option>
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+            </select>
+            <label class="regiaoLabel">Região</label>
+
+        </div>
+
+       <!--CAMPO EMAIL-->
+        <input id="femail" required name="femail" class="email" type="email" name="email" placeholder="exemplo@email.com.br" maxlength="50">
+        <label class="emailLabel">Email*</label>
+
+        <!--CAMPO DDD-->
+        <input id="fddd" required name="fddd" class="codigoArea" type="text" name="codigo_area" placeholder="011" maxlength="3" min="1">
+        <label class="codigoAreaLabel">DDD*</label>
+
+        <!--CAMPO TELEFONE-->
+        <input id="ftelefone" required name="ftelefone" class="numero" type="text" name="phone" placeholder="99999-9999" maxlength="9" data-mask="0 0000-0000" >
+        <label class="numeroLabel">Telefone*</label>
+
+        <!--CAMPO SEXO-->
+        <label class="sexoLabel">Sexo</label>
+        <select class="opcoes" name="opcoes">
+
+            <option disabled="disabled" selected="selected">-Selecione a opção</option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+
+        </select>
+
+
+        <div style="margin-top: -9px;
+        margin-left: 234px;">
+
+                <!--BOTÃO CONCLUIR-->
+                <input class="titulo-botao1" type="button" value="CONCLUIR" id="concluir" onclick="enviarAlert()" > 
+
+                <!--BOTÃO VOLTAR PARA A PAGINA PRINCIPAL-->
+                <a href="index.html">
+                  <li class="titulo-botao2">VOLTAR</li></a>
+        
+        </div>
+            <!--LOGO SINDIONIBUS-->
+          <a href="http://sindionibus.com.br/" target="_blank"><img class="imgSindionibus" src="../Projeto Bilhete Único/Fotos/sindionibus.jpg" ;></a>
+
+          <!--LOGO BILHETE ÚNICO-->
+          <a href="https://catalogodeservicos.fortaleza.ce.gov.br/categoria/mobilidade/servico/72" target="_blank"><img class="imgLogo" src="../Projeto Bilhete Único/Fotos/logo.png" ;></a>
+
+        
+    </form>
+
+</div>
+</body>
+</html>

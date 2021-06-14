@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../Fotos/capa.jpg");
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+/* CSS LOGO SINDIONIBUS*/
+.imgSindionibus {
+    position: absolute;
+    width: 61px;
+    margin-left: 718px;
+    margin-top: -559px;
+    border-radius: 17px;
+}
+
+.imgSindionibus:hover {
+    box-shadow: inset 0 0 3em rgb(28, 255, 28), 0 0 1em rgb(80, 255, 211);
+}
+
+/* CSS LOGO BILHETE ÚNICO*/
+.imgLogo {
+    position: absolute;
+    width: 61px;
+    margin-left: 0px;
+    margin-top: -559px;
+    border-radius: 22px;
+}
+
+.imgLogo:hover {
+    box-shadow: inset 0 0 1em rgb(74, 255, 74);
+}
+
+/* CSS CORPO DO FORMULÁRIO*/
+.registroFormulario {
+    width: 770px;
+    background-color: rgb(0 0 0 / 91%);
+    margin: auto;
+    color: rgb(255, 255, 255);
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 21px;
+
+    font-family: system-ui;
+    font-size: 22px;
+    padding: 15px;
+    padding-bottom: 25px;
+    
+}
+
+.conteudo {
+    background-color: rgb(0 0 0 / 82%);
+    width: 800px;
+    height: 504px;
+    margin: auto;
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+form {
+    padding: 10px;
+}
+
+
+/* CSS INPUTS/SELECTS/LABELS DO FORMULÁRIO/*/
+#nome {
+    width: 100px;
+    height: 100px;
+}
+
+.nome {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+
+}
+
+.primeiroNome {
+    position: relative;
+    left: 139px;
+    top: 19px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.sobrenome {
+    position: relative;
+    left: 385px;
+    top: -43px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.primeiroNomeLabel {
+    position: relative;
+    color: #E5E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 146px;
+    top: -46px;
+}
+
+.sobrenomeLabel {
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 394px;
+    top: -108px;
+}
+
+.endereco {
+    position: relative;
+    left: 141px;
+    top: -3px;
+    line-height: 40px;
+    width: 441px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.enderecoLabel {
+    position: relative;
+    color: #E5E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: -347px;
+    top: -38px;
+}
+
+.cidade {
+    position: relative;
+    left: 141px;
+    top: 36px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.regiao {
+    position: relative;
+    left: 388px;
+    top: -26px;
+    line-height: 40px;
+    width: 243px;
+
+    height: 44px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+
+.cidadeLabel {
+    position: relative;
+    color: #E5E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 148px;
+    top: -28px;
+}
+
+.regiaoLabel {
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 396px;
+    top: -91px;
+}
+
+
+
+
+.email {
+    position: relative;
+    left: 141px;
+    top: 13px;
+    line-height: 40px;
+    width: 445px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.emailLabel {
+    position: relative;
+    color: #E5E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: -350px;
+    top: -21px;
+}
+
+.telefoneDDD {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+}
+
+/* CSS INPUT DDD */
+.codigoArea {
+    position: relative;
+    left: -399px;
+    top: 98px;
+    line-height: 40px;
+    width: 31px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* CSS INPUT TELEFONE */
+.numero {
+    position: relative;
+    left: 233px;
+    top: 53px;
+    line-height: 40px;
+    width: 131px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555; 
+}
+
+/* CSS LABEL DDD */
+.codigoAreaLabel {
+    position: relative;
+    color: #E5E5E5E5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: -476px;
+    top: 63px;
+}
+
+/* CSS LABEL TELEFONE */
+.numeroLabel {
+    position: relative;
+    color: #E5E5E5E5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 57px;
+    top: 18px;
+}
+
+/* CSS LABEL SEXO */
+.sexoLabel {
+    position: relative;
+    color: #E5E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 179px;
+    top: 16px;  
+}
+
+
+/* CSS SELECT SEXO */
+.opcoes {
+    position: relative;
+    left: 134px;
+    top: 53px;
+    line-height: 40px;
+    width: 210px;
+    height: 44px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+
+.opcoes option {
+    font-size: 20px;
+}
+
+
+/* CSS BOTÕES */
+
+button {
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #266473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+}
+
+button:hover {
+    background-color: teal;
+}
+
+.botaoVoltar {
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #266473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    width: 40px;
+    padding-right: 100px;
+}
+
+.botaoVoltar:hover {
+    background-color: teal;
+}
+
+.titulo-botao1 {
+    background-color: #00ff5e; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: monospace;
+    border-radius: 12px;
+    margin-top: 97px;
+    
+}
+
+.titulo-botao1:hover {
+    background-color: #009135;
+    color: rgb(255, 255, 255);
+}
+
+
+.titulo-botao2 {
+    background-color: rgb(255, 34, 34); 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: monospace;
+    border-radius: 12px;
+    
+}
+
+.titulo-botao2:hover {
+    background-color: rgb(255, 116, 116);
+    color: rgb(0, 0, 0);
+}
+
+
+/*
+AQUI EU TENTEI FAZER A VALIDAÇÃO DOS CAMPOS COM CORES,
+MAS NÃO CONSEGUI FAZER COM QUE A PÁGINA AO SER
+CARREGADA PELA PRIMEIRA VEZ DEIXASSE OS CAMPOS SEM SER
+VALIDADOS, POIS COMO ERA O PRIMEIRO CONTATO DO USUÁRIO 
+COM A PÁGINA FICARIA ENTRANHO ELE JÁ ABRIR COM OS CAMPOS
+EM VERMELHO OU VERDE.
+
+
+
+
+input:focus {
+    border-color: black !important;
+    box-shadow: none !important;
+}
+
+select:focus {
+    border-color: black !important;
+    box-shadow: none !important;
+}
+
+
+
+input:invalid {
+    border-color: red;
+    box-shadow: 0 0 0.3em rgb(255, 166, 166);
+}
+
+select:invalid {
+    border-color: red;
+    box-shadow: 0 0 0.3em rgb(255, 166, 166);
+}
+
+
+
+input:valid {
+    border-color: green;
+    box-shadow: 0 0 0.3em rgb(182, 255, 164);
+}
+
+select:valid {
+    border-color: green;
+    box-shadow: 0 0 0.3em rgb(182, 255, 164);
+}
+*/
+

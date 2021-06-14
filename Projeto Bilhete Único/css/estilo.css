@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../Fotos/capa.jpg');
+    margin-block-start: 1.67em;
+    margin-top: 126px;
+}
+
+
+.divMenu {
+    background-color: rgb(255 255 255 / 67%);
+    margin-left: 31%;
+    margin-right: 31%;
+    padding-bottom: 38px;
+    padding-top: 42px;
+}
+
+
+
+div#menuPrincipal h1{
+    font-size: 40;
+    margin-left: 690px;
+    width: 10%;
+    background-color: white;
+    
+}
+
+/* CSS LOGO BILHETE ÚNICO*/
+#logo {
+    width: 196px;
+    margin-left: -31%;
+    border-radius: 109px;
+}
+
+#logo:hover {
+    box-shadow: inset 0 0 3em rgb(0, 255, 0), 0 0 1em rgb(0, 255, 191);
+}
+
+.titulo-img {
+    
+    margin-left: 39%;
+    margin-right: auto;
+    width: 120px;
+}
+
+/* CSS BOTÕES*/
+.titulo-botao1 {
+    background-color: #004f4c; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: monospace;
+    border-radius: 12px;
+}
+
+.titulo-botao1:hover {
+    background-color: #3dc9db;
+    color: black;
+}
+
+
+.titulo-botao2 {
+    background-color: #2bd869; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: monospace;
+    border-radius: 12px;
+}
+
+.titulo-botao2:hover {
+    background-color: #045f24;
+    color: white;
+}
