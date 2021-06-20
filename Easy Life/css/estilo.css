@@ -12,8 +12,9 @@ body {
 
 .fundoMenu {
     background-color: rgb(255 255 255 / 71%);
-    padding: 60px 0px 60px 0px;
+    padding: 35px 0px 42px 0px;
     margin: 0px 360px 0px 360px;
+    border-radius: 33px;
 }
 
 hgroup h1 {
