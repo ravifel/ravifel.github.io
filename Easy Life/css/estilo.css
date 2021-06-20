@@ -5,9 +5,15 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('../fotos/fundoMenu.jpg');
+    background-image: url('../fotos/fundo.jpg');
     margin-block-start: 1.67em;
     margin-top: 100px;
+}
+
+.fundoMenu {
+    background-color: rgb(255 255 255 / 71%);
+    padding: 60px 0px 60px 0px;
+    margin: 0px 360px 0px 360px;
 }
 
 hgroup h1 {
@@ -15,9 +21,6 @@ hgroup h1 {
     color: #01b3bc;
 }
 
-nav h1 {
-    font-size: 20px;
-}
 
 input#concluir {
     background-color: #01b3bc;
@@ -30,7 +33,7 @@ div#sobreExames {
     margin-left: 360px;
     margin-right: 50px;
     width: 50%;
-    background-color: white;
+    background-color: #ffffff85;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
@@ -60,14 +63,14 @@ div#menuPrincipal h1{
 
 .titulo-img {
     position: absolute;
-    margin-left: 39%;
+    margin-left: 11%;
     margin-right: auto;
     width: 120px;
 }
 
 .titulo-nome {
             border: 0px solid;
-            margin-left: 47%;
+            margin-left: 42%;
             margin-right: auto;
             width: 200px;
             height: 100px;
@@ -78,6 +81,7 @@ div#menuPrincipal h1{
                 font-size: xxx-large;
                 margin-top: 21px;
                 margin-bottom: 0px;
+                color: #01b3bc;
 }
 
 .titulo-botao1 {
@@ -89,6 +93,12 @@ div#menuPrincipal h1{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 27px;
+}
+
+.titulo-botao1:hover {
+    background-color: #005c61; 
+    color: white;
 }
 
 .titulo-botao2 {
@@ -100,6 +110,12 @@ div#menuPrincipal h1{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 27px;
+}
+
+.titulo-botao2:hover {
+    background-color: #004246; 
+    color: white;
 }
 
 .titulo-botao3 {
@@ -111,13 +127,19 @@ div#menuPrincipal h1{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 27px;
+}
+
+.titulo-botao3:hover {
+    background-color: #1d755b;
+    color: white;
 }
 
 div#marcacao {
     margin-left: 360px;
     margin-right: 50px;
     width: 50%;
-    background-color: white;
+    background-color: #ffffffb4;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
