@@ -26,15 +26,23 @@ hgroup h1 {
 input#concluir {
     background-color: #01b3bc;
     color: white;
-    padding: 15px;
-    
+    padding: 18px;
+    border-radius: 14px;
+    border: none;
+    font-size: 17px;
+    margin-top: -9px;
+}
+
+input#concluir:hover {
+    background-color: #005c61; 
+    color: white;
 }
 
 div#sobreExames {
-    margin-left: 360px;
+    margin-left: 330px;
     margin-right: 50px;
     width: 50%;
-    background-color: #ffffff85;
+    background-color: #ffffffa1;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
@@ -90,6 +98,8 @@ div#menuPrincipal h1{
     border: none;
     color: white;
     padding: 15px 32px;
+    margin-left: 58px;
+    margin-left: 53px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -137,7 +147,7 @@ div#menuPrincipal h1{
 }
 
 div#marcacao {
-    margin-left: 360px;
+    margin-left: 330px;
     margin-right: 50px;
     width: 50%;
     background-color: #ffffffb4;
@@ -148,4 +158,79 @@ div#marcacao {
     font-size: 20px;
     text-align: center;
 
+}
+
+#fname {
+    position: relative;
+    left: 13px;
+    top: -7px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+#fmail {
+    position: relative;
+    left: 15px;
+    top: -7px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+#fcpf {
+    position: relative;
+    left: 19px;
+    top: -7px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+#fexame {
+    position: relative;
+    left: 16px;
+    top: -7px;
+    line-height: 40px;
+    width: 249px;
+    height: 44px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+}
+
+
+#ldate {
+    position: relative;
+    left: 17px;
+    top: -7px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+#ldateExame {
+    position: relative;
+    left: 17px;
+    top: -7px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+#lhora {
+    position: relative;
+    left: 17px;
+    top: -7px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
 }
