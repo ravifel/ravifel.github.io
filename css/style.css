@@ -564,12 +564,12 @@ nav ul li a {
   background-color: #292929;
   border: none;
   color: black;
-  padding: 16px 23px;
+  padding: 9px 45px;
   padding-top: 23px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 24px;
+  font-size: 20px;
   font-family: monospace;
   border-radius: 12px;
 }
