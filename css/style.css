@@ -573,6 +573,7 @@ nav ul li a {
   font-size: 20px;
   font-family: monospace;
   border-radius: 12px;
+  margin-bottom: 10px;
 }
 
 #linkedin:hover {
