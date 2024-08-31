@@ -260,7 +260,7 @@ nav ul li a {
 
 #header {
   background: url("../images/plano-de-fundo.jfif") repeat scroll center / cover;
-  height: 100vh;
+  height: 32vh;
   width: 100%;
 }
 
@@ -283,7 +283,7 @@ nav ul li a {
   font-family: "Poppins";
   font-weight: 700;
   padding: 13px;
-  margin-bottom: 10px;
+  margin-bottom: 471px;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #17151669;
@@ -333,8 +333,8 @@ nav ul li a {
   width: 100%;
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
   margin-top: 35px;
-  margin-left: 40px;
-  height: 400px;
+  margin-left: 10px;
+  height: 298px;
   object-fit: cover;
 }
 
