@@ -104,7 +104,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #000000;
   line-height: 28px;
 }
 
@@ -259,13 +259,13 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/plano-de-fundo.jfif") repeat scroll center / cover;
+  background-color: #000000;
   height: 38vh;
   width: 100%;
 }
 
 .fundo-nome {
-  margin-bottom: 2px;
+  margin-bottom: 410px;
   align-self: center;
 }
 
@@ -283,7 +283,7 @@ nav ul li a {
   font-family: "Poppins";
   font-weight: 700;
   padding: 13px;
-  margin-bottom: 471px;
+  margin-bottom: -27px;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #17151669;
@@ -325,7 +325,7 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: #c6c6c6;
   padding-top: 69px;
 }
 
@@ -551,7 +551,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
-  background: url(../images/plano-de-fundo.jfif) repeat scroll center / cover;
+  background: url(../images/plano-de-fundo-3.jpg) repeat scroll center / cover;
 }
 
 .contact-details {
