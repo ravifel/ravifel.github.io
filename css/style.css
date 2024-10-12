@@ -7,6 +7,10 @@
 
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
+/* cinza: #c6c6c6
+preto: #000000
+marrom: #d79275
+branco: #ffffff */
 
 body {
   background: #ffffff;
@@ -265,7 +269,7 @@ nav ul li a {
 }
 
 .fundo-nome {
-  margin-bottom: 410px;
+  margin-bottom: 500px;
   align-self: center;
 }
 
