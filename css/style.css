@@ -263,7 +263,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background-color: #000000;
+  background-color: #000000b0;
   height: 38vh;
   width: 100%;
 }
@@ -554,7 +554,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
-  background: url(../images/plano-de-fundo-3.jpg) repeat scroll center / cover;
+  background-color: #000000b0;
 }
 
 .contact-details {
