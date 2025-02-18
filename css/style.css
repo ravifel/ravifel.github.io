@@ -263,7 +263,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background-color: #000000b0;
+  background-color: #000000db;
   height: 38vh;
   width: 100%;
 }
@@ -328,7 +328,7 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #c6c6c6;
+  background: #000000;
   padding-top: 12px;
 }
 
@@ -552,7 +552,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
-  background-color: #000000b0;
+  background-color: #ffffff;
 }
 
 .contact-details {
@@ -632,7 +632,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
 }
