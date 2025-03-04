@@ -221,7 +221,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", helvetica;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -238,6 +238,21 @@ nav ul li a {
   text-transform: uppercase;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+#nav-bar-section {
+  padding: 5px; 
+  border-radius: 10px; 
+  padding: 11px 11px 11px 11px;
+}
+
+#nav-bar-section-email {
+  text-align-last: center; 
+  font-weight: bold; 
+  padding: 0px 20px 3px 3px; 
+  margin-bottom: 10px; 
+  border-radius: 20px;
+  color: #000000;
 }
 
 .logo {
@@ -339,8 +354,13 @@ nav ul li a {
   object-fit: cover;
 }
 
+#about-img-profile {
+  margin-bottom: 10px; 
+  border-radius: 400px;
+}
+
 #about .about-descr .p-heading {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", helvetica;
   font-size: 28px;
   text-align: left;
 }
@@ -349,6 +369,41 @@ nav ul li a {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+}
+
+#separator-description-english-white {
+  color: #ffffff;
+}
+
+#section-about-us {
+  text-align-last: center; 
+  background-color: #ffffff; 
+  padding: 22px 22px 22px 22px; 
+  margin: 10px 50px 10px 50px; 
+  border-radius: 10px;
+}
+
+#section-about-us-email {
+  text-align: -webkit-center; 
+  text-align-last: center; 
+  font-weight: bold; 
+  padding: 22px 30px 22px 0px; 
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+#section-about-us-description-english {
+  background-color: #000000; 
+  border-radius: 5px; 
+  padding: 10px; 
+  margin-top: 35px;
+}
+
+#section-about-us-description-pt {
+  background-color: #ffffff; 
+  border-radius: 5px; 
+  padding: 10px; 
+  margin-top: 35px
 }
 
 /*-----------------------------------------------------------------------------------*/
