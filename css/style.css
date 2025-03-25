@@ -250,9 +250,13 @@ nav ul li a {
   text-align-last: center; 
   font-weight: bold; 
   padding: 0px 20px 3px 3px; 
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   border-radius: 20px;
   color: #000000;
+}
+
+#nav-bar-section-email-image {
+  margin-right: 5px;
 }
 
 .logo {
@@ -376,19 +380,19 @@ nav ul li a {
 }
 
 #section-about-us {
-  text-align-last: center; 
-  background-color: #ffffff; 
+  text-align: -webkit-center;
   padding: 22px 22px 22px 22px; 
-  margin: 10px 50px 10px 50px; 
-  border-radius: 10px;
+  margin: 30px 0px 30px 0px; 
+}
+
+#section-about-us-items {
+  margin-bottom: 30px;
 }
 
 #section-about-us-email {
-  text-align: -webkit-center; 
-  text-align-last: center; 
-  font-weight: bold; 
-  padding: 22px 30px 22px 0px; 
-  border-radius: 20px;
+  text-align: -webkit-center;
+  margin-bottom: 30px;
+  font-weight: bold;
   color: #ffffff;
 }
 
