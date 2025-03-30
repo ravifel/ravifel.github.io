@@ -249,7 +249,7 @@ nav ul li a {
 #nav-bar-section-email {
   text-align-last: center; 
   font-weight: bold; 
-  padding: 0px 20px 3px 3px; 
+  padding: 16px 20px 3px 3px;
   margin-bottom: 10px;
   border-radius: 20px;
   color: #000000;
@@ -380,9 +380,8 @@ nav ul li a {
 }
 
 #section-about-us {
-  text-align: -webkit-center;
+  text-align: -webkit-left;
   padding: 22px 22px 22px 22px; 
-  margin: 30px 0px 30px 0px; 
 }
 
 #section-about-us-items {
@@ -390,7 +389,6 @@ nav ul li a {
 }
 
 #section-about-us-email {
-  text-align: -webkit-center;
   margin-bottom: 30px;
   font-weight: bold;
   color: #ffffff;
