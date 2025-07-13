@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-contact {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+/* Modo Claro */
+.light-theme {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+/* Modo Escuro */
+.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Estilo para links ou botões personalizados se precisar */
+a, .btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo geral dos cards */
+.card {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Modo claro */
+.light-theme .card {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+/* Modo escuro */
+.dark-theme .card {
+  background-color: #1e1e1e;
+  color: #f8f9fa;
+}
+
+.dark-theme .card-title,
+.dark-theme .card-text {
+  color: #f8f9fa;
+}
+
+.dark-theme .btn-outline-primary {
+  border-color: #61dafb;
+  color: #61dafb;
+}
+
+.dark-theme .btn-outline-primary:hover {
+  background-color: #61dafb;
+  color: #121212;
+}
+
+.dark-theme .tech-card p {
+  color: #212529 !important;
+}
+
+.dark-theme .tech-card h6,
+.dark-theme .tech-card p {
+  color: #212529 !important;
+}
+
+html, body, #root {
+  min-height: 100%;
+  background-color: inherit;
+}
